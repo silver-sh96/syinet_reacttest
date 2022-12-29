@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <typeAliases>
+		<typeAlias alias="egovMap" type="org.egovframe.rte.psl.dataaccess.util.EgovMap"/>
+		<typeAlias alias="UserDTO" type="com.esh.react.dto.UserDTO"/>
+		<typeAlias alias="DeptDTO" type="com.esh.react.dto.DeptDTO"/>
+		<typeAlias alias="PositionDTO" type="com.esh.react.dto.PositionDTO"/>
+		<typeAlias alias="RankDTO" type="com.esh.react.dto.RankDTO"/>
+    </typeAliases>
+</configuration>
